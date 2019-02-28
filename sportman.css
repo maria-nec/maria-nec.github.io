@@ -19,7 +19,7 @@ body {
   justify-content: space-between;
   font-size: 16px;
   font-weight: 500;
-  color: #000000;
+  color: #000000; 
   
   
 }
@@ -135,7 +135,7 @@ h3 {
   padding: 34px 55px 60px 30px;
   border-style: dashed;
   border-radius: 10px;
-  border-color:#d0021b;
+  border-color:#d0021b; 
 }
 
 .section-2__lead{
