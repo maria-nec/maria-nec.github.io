@@ -1,0 +1,178 @@
+
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	color:black;
+	font-size: 23px;
+  	line-height: 32px;
+   }
+
+.wrapper {
+  width: 1200px;
+  margin: 12px 80px 40px 60px;
+}
+
+/* Header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  
+  
+}
+
+
+.navbar-links {
+  list-style-type: none;
+  display: flex;
+  margin-right: 180px;
+  margin-bottom: 26px
+}
+
+.navbar-links__item {
+  margin: -16px 25px 0 0px;
+}
+
+/*.navbar-links__item:first-child {
+  margin-left: 0;
+}*/
+
+.navbar-brand {
+  width: 109px;
+  height: 19px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  text-decoration: none;
+}
+
+.navbar-brand:hover {
+  color: #D0021B;
+}
+
+.navbar-brand__primary{
+  color: #D0021B;
+  text-decoration: none;
+  border-bottom: 1px solid #D0021B;
+}
+
+.header__contact{
+	padding-right: 100px;
+	padding-top: 1px;
+}
+
+
+/* Main */
+
+h1 {
+  width: 543px;
+  height: 275px;
+  font-size: 80px;
+  font-weight: 900;
+  line-height: 1.04;
+}
+
+.introduction {
+  margin-bottom: 34px;
+  padding: 0 29px;
+  display: flex;
+}
+
+.introduction__section {
+  margin-bottom: 21px;
+  display: flex;
+}
+
+.introduction__section:last-child {
+  margin-bottom: 0;
+}
+
+.introduction__text {
+  width: 363px;
+  font-family: Montserrat;
+  font-weight: 500;
+  margin-top: -307px;
+  margin-left: -40px;
+}
+
+.main__pic{
+  width: 750px;
+  object-fit: contain;
+  margin-left:200px;
+  margin-top: -150px;
+}
+
+h2 {
+  width: 430px;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 47px;
+  margin-top: 90px
+  }
+
+h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+.container_text{
+  display: flex;
+}
+
+.text__lead{
+  width: 356px;
+  height: 357px;
+}
+
+.text__main{
+  width: 610px;
+  margin-left: 72px;
+  margin-top: -200px;
+  padding: 34px 55px 60px 30px;
+  border-style: dashed;
+  border-radius: 10px;
+  border-color:#d0021b;
+}
+
+.section-2__lead{
+  width: 673px;
+}
+
+.section-2__pic{
+  position: relative;
+}
+
+.section-2__text-block{
+  position: absolute;
+  bottom: 20px;
+  padding-left: 30px;
+  width: 511px;
+}
+
+
+img.main_pic {height: 550px; weight:750;}
+img.logo {height: 35px; weight:35px;}
+
+
+
+
+/* Footer */
+
+.footer {
+  display: flex;
+  padding: 40px 0px 40px 0px;
+}
+
+.footer_text {
+  font-size: 16px;
+  line-height: 21px;
+  margin-right: 50px;
+}
+
+.footer_icons{
+	margin-left: 150px
+}
