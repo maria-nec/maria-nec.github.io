@@ -1,12 +1,16 @@
-/* Свёрстано по макету https://yadi.sk/i/TyMXM1BU3zoTKw
-и дроплер, если вдруг яндекс не откроется — https://d.pr/free/i/p9cXtC */
+
+/* Свёрстано по макету https://yadi.sk/i/_F_E2Q1miId5kQ  */
 
 body {
-	font-family: 'Montserrat', sans-serif;
+	font: 23px 'Montserrat', sans-serif;
 	color:black;
-	font-size: 23px;
   line-height: 32px;
   margin-left: 40px
+}
+
+p {
+  margin-top: 6px;
+  margin-bottom: 6px;
 }
 
 .wrapper {
@@ -15,15 +19,14 @@ body {
 }
 
 /* Header */
-
 .header {
   display: flex;
   justify-content: space-between;
   font-size: 16px;
   font-weight: 500;
-  color: #000000;
   margin-top: -4px
 }
+
 .logo {
   height: 35px;
   margin-top: 15px;
@@ -50,98 +53,154 @@ body {
   color: #D0021B;
 }
 
-.navbar-brand__primary{
+.navbar-brand__current {
   color: #D0021B;
   text-decoration: none;
   border-bottom: 1px solid #D0021B;
 }
 
-.header__contact{
-	padding-right: 115px;
-	padding-top: 13px;
+.header__contact {
+  padding-right: 113px;
+  padding-top: 16px;
 }
 
-
-/* Main */
+/* fisrt block */
+.introduction__section {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 23px;
+}
 
 h1 {
-  width: 543px;
-  height: 275px;
   font-size: 80px;
   font-weight: 900;
   line-height: 83px;
-  margin-bottom: 0
-}
-
-.introduction {
-  display: flex;
-
+  margin-bottom: 0;
+  padding-top: 7px;
 }
 
 .introduction__text {
-  width: 345px;
-  margin-top: -270px;
-  margin-bottom: 0
+  width: 340px;
+  margin-top: 25px;
 }
 
 .main__pic{
-  width: 800px;
-  object-fit: contain;
-  margin-left:174px;
-  margin-top: -162px;
+  margin-left: -43px;
+  margin-bottom: -5px;
 }
 
 h2 {
-  width: 430px;
   font-size: 40px;
   font-weight: bold;
   line-height: 47px;
-  margin-top: 60px
+  margin-bottom: 20px;
   }
 
 h3 {
   font-size: 25px;
   font-weight: bold;
-  margin: 0
+  padding-top: 0px;
+  margin:0;
 }
 
-.container_text{
+/*second block*/
+.lack-of-training {
   display: flex;
-  flex-direction: row;
-  justify-content:space-between;
-  margin-bottom: 20px
+  margin-bottom: 80px;
 }
 
-.text__lead{
-  width: 356px;
-  height: 357px;
-  margin-bottom: 0px;
- 
+.lack-of-training__text {
+  width: 400px;
 }
-.text__aside{
-  width: 483px; 
-  margin-top: -170px;
-  padding: 5px 20px 0px 30px;
-  border-style: dashed;
+
+.how-to-start__text {
+  width: 485px; 
+  padding: 23px 25px 38px 25px;
   border-radius: 10px;
-  border-color: #d0021b;
-  margin-right: 182px
+  border: dashed #d0021b 2px;
+  align-self: center;
+  margin-left: 57px;
+  margin-top: 43px;
 }
+
+.how-to-start__paragraph {
+  margin-bottom: 0px;
+  padding-top: 5px;
+}
+
+/*third block*/
+.wrong-technique {
+  height: 795px;
+  margin-bottom: 50px;
+}
+
+.wrong-technique__lead {
+  width: 410px;
+  margin-bottom: 70px;
+  margin-top: -11px;
+}
+
+.second-block {
+  display: flex;
+}
+
+.what-to-do__text {
+  width: 480px;
+  padding: 6px 0px 0px;
+}
+
+.lack-of-training__wave {
+  margin-left: -30px;
+  margin-top: -92px;
+  position: absolute;
+  z-index: -1;
+}
+
+.lack-of-training__man {
+  position: absolute;
+  right: 40px;
+  top: -420px;
+}
+
+/* У всех элементов фактоида разное оформление шрифта — поэтому пришлось делать отдельно.
+Больше не буду так делать в макетах :( */
+.factoid {
+  position: relative;
+  margin-left: 335px;
+  margin-top: 75px;
+  line-height: 28px;
+}
+
+.factoid__time {
+  font-size: 50px;
+  font-weight: bold;
+  color: #D0021B;
+}
+
+.factoid__number {
+  font-size: 70px;
+  font-weight: 600;
+  color:#D0021B;
+}
+
+.factoid__text {
+  padding-top: 10px;
+  margin-left: 5px;
+}
+
 
 /* Footer */
-
 .footer {
   display: flex;
-  padding: 0px 0px 40px 0px;
-}
-
-.footer_text {
   font-size: 16px;
   line-height: 21px;
-  margin-right: 45px;
 }
 
-span {
+.footer__left {
+  margin-right: 30px;
+}
+
+.mailto {
   color:#D0021B;
   text-decoration: underline;
 }
